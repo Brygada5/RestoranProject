@@ -20,7 +20,7 @@ body{
 }
 
 .numbers{
-position: relative;
+//position: relative;
 bottom: 10%;
 padding-left: 10px;
 font-size: 20px;
