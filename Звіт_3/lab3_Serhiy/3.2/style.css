@@ -1,0 +1,80 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.header{
+  width:100%;
+  height:100px;
+  background-color: yellow;
+
+}
+.header1{
+width: 200px;
+height: 50px;
+background-color: white;
+position: absolute;
+top: 25px;
+left: 5px;
+
+
+}
+.main{
+  width:100%;
+  height:500px;
+  background-color: white;
+
+
+
+}
+.footer{
+  width:100%;
+  height:100px;
+  background-color: yellow;
+  margin-bottom: 50px;
+
+
+}
+.main1{
+  width:20%;
+  height:500px;
+  background-color: blue;
+  float:left;
+}
+.main2{
+  width:78%;
+  height:100px;
+  background-color: red;
+  float:left;
+  margin: 10px;
+}
+
+.main3{
+  width:40%;
+  height:350px;
+  margin: 10px;
+  background-color: white;
+  border: 1px double black; /* Параметры границы */
+  float:left;
+}
+.main31{
+  width: 40%;
+  height: 50px;
+  background-color: red;
+  position: absolute;
+  top: 531px;
+  left: 20.7%;
+  border: 1px double black; /* Параметры границы */
+
+}
+.main4{
+  width: 37%;
+  height:350px;
+  margin: 10px;
+  background-color: white;
+  border: 1px double black; /* Параметры границы */
+  float:left;
+  position: absolute;
+  top: 220px;
+  left: 61%;
+}

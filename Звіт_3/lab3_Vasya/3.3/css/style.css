@@ -1,0 +1,129 @@
+.body{
+  margin: 0 auto;
+  border: none;
+}
+.workblock{
+  margin: 0 auto;
+  border: none;
+  text-align: center;
+}
+
+.header-block {
+  display: flex;
+  justify-content: center;
+  border: none;
+  font-size: 24px;
+}
+
+.header_element {
+    border: none;
+    background-color: black;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    font-weight: bold;
+    max-width: 20%;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.header_city-element {
+    border: none;
+    background-color: black;
+    color: white;
+    margin: 10px;
+    padding: 10px 8%;
+    font-weight: bold;
+}
+.about {
+  background-color: lightgrey;
+}
+.about_title {
+  font-size: 36px;
+  font-weight: bold;
+}
+.title {
+}
+.about_proffesions {
+  display: flex;
+  justify-content: center;
+  height: 400px;
+}
+.about_element-proffesion {
+  flex-direction: column;
+  background-color: white;
+  margin: 20px 20px;
+  max-width: 20%;
+}
+.about_elem-head-text {
+  font-weight: bold;
+  margin: 20px 20px;
+  font-size: 24px;
+}
+.about_elem-text {
+}
+.about_img {
+  width: 90%;
+  height: 45%;
+  margin: 0 auto;
+}
+.about_img img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.about-second {
+}
+.studing {
+    background-color: lightgrey;
+}
+.studing_title {
+    font-size: 36px;
+    font-weight: bold;
+}
+.studing_images {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    justify-content: center;
+}
+.studing_img {
+    width: 25%;
+    margin: 3%;
+}
+.studing_img img {
+    max-width: 100%;
+}
+.partners {
+    background-color: lightgrey;
+}
+.partners_title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 3%;
+}
+.partners_row {
+    display: flex;
+}
+.partners_img {
+    width: 50%;
+}
+.partners_img img {
+    max-width: 100%;
+}
+.partners_block {
+    width: 50%;
+}
+.partners_block-title {
+    font-size: 28px;
+    text-align: left;
+    margin-left: 3%;
+}
+.partners_block-text {
+    margin-left: 3%;
+    margin-right: 3%;
+    text-align: left;
+}
