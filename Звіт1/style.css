@@ -1,0 +1,91 @@
+body {background: #F1F4F5}
+h1 {color: red;}
+h2 {color:#39C132;}
+img {border: 2px solid green;}
+
+a{
+ font-size: 14pt;
+ color: black;
+}
+
+.list-lab{
+  padding-top:20px;
+  margin:20px;
+}
+
+.lab-block{
+	display:inline-block;
+	text-align:center;
+  margin-left: 3%;
+  font-size: 13pt;
+}
+
+.lab-block a {
+  padding-top: 6px;
+}
+
+.lab{
+  text-decoration: none;
+  border-color:black;
+	border-style:solid;
+	border-width:2px;
+  border-radius:10px;
+	width:105px;
+	height:60px;
+	display:inline-block;
+}
+
+.left-menu{
+  display: inline-block;
+  width: 20%;
+  float: left;
+}
+
+.right-menu{
+  display: inline-block;
+  float: left;
+  width: 80%;
+  height: 100px;
+}
+
+.left-blok{
+  padding-top: 9%;
+  border-color:black;
+  text-align:center;
+  display: inline-block;
+  border-color:black;
+  border-style:solid;
+  border-width:2px;
+  width:200px;
+  height:75px;
+  border-radius:90px;
+  font-size: 13pt;
+  margin-top: 20%;
+}
+
+.inform-block p{
+  font-size: 18pt;
+}
+
+.inform-block{
+  border-color:black;
+  border-style:solid;
+  border-width:2px;
+  border-radius:10px;
+  margin-top: 30px;
+  height: 970%;
+  font-size: 17pt;
+}
+
+.image{
+	width: 120%;
+	height: 60%;
+	display: flex;
+  margin-left:30px;
+}
+
+
+.inform-block a{
+  font-size: 29px;
+  color: blue;
+}
