@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Register</title>
+    <link href="style.css" rel="stylesheet" />
+</head>
+<body>
+    <form>
+        <div class="container">
+            <h1>Реєстрація</h1>
+            <p>Для того, щоб створити акаунт, заповніть всі поля <i>(обов'язкові поля позначені зірочкою, *)</i></p>
+            <hr>
+
+            <label for="name"><b>Ваше ім'я</b></label>
+            <input type="text" placeholder="Ім'я" id="name">
+
+            <label for="intnumber"><b>Ваше улюблене ціле число *</b></label>
+            <input placeholder="256" id="intnumber">
+
+            <label for="floatnumber"><b>Ваше улюблене дійсне число *</b></label>
+            <input placeholder="25.073" id="floatnumber">
+
+            <label for="date"><b>Дата народження *</b></label>
+            <input placeholder="ДД.ММ.РРРР" id="date">
+
+            <label for="psw"><b>Придумайте пароль *</b></label>
+            <input placeholder="********" id="psw">
+
+            <label for="psw-repeat"><b>Повторіть пароль *</b></label>
+            <input placeholder="********" id="psw-repeat">
+            <hr>
+
+            <button class="registerbtn" onclick="validate()">Зареєструватись</button>
+            <script src="script.js"></script>
+        </div>
+    </form>
+</body>
+</html>
