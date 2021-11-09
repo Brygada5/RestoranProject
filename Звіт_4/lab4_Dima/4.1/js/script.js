@@ -1,3 +1,4 @@
+
 let button = document.getElementById("button");
 button.addEventListener("click", handler);
 
@@ -61,7 +62,7 @@ function handler(){
   elem2.appendChild(elemText2);
   body.appendChild(elem2);
 
-  let min = minAray(arr1, arr2);
+  let min = minAray(arr1);
   console.log(`min = ${min}`);
 
   let elemText3 = document.createTextNode(`min = ${min}`);
